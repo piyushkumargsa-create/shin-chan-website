@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shinchan Fun World</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: #ff4d6d;
+      color: white;
+      padding: 20px;
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: yellow;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .about {
+      background: #fff3b0;
+      border-radius: 20px;
+      margin: 20px auto;
+      max-width: 700px;
+      padding: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 15px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+    footer {
+      background: #ff4d6d;
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+      font-size: 0.9rem;
+    }
+    .fun-zone {
+      background: #dff6ff;
+      border-radius: 20px;
+      padding: 20px;
+      max-width: 700px;
+      margin: 0 auto;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+    .btn {
+      display: inline-block;
+      background: #ff4d6d;
+      color: white;
+      padding: 12px 25px;
+      margin-top: 15px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #e63950;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🎉 Welcome to Shinchan Fun World 🎉
+    <nav>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#fun">Fun Zone</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <div class="about">
+      <h2>About Shinchan</h2>
+      <p>Shinchan Nohara is a funny 5-year-old boy who loves chocolates, toys, and making everyone laugh. 
+      He is naughty but adorable, and children love his silly jokes and adventures! 🧸🍫</p>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Shinchan Gallery</h2>
+    <div class="gallery">
+      <img src="https://i.ibb.co/ScjQHTF/shinchan1.jpg" alt="Shinchan 1">
+      <img src="https://i.ibb.co/JmZnrGB/shinchan2.jpg" alt="Shinchan 2">
+      <img src="https://i.ibb.co/1dLvLqK/shinchan3.jpg" alt="Shinchan 3">
+      <img src="https://i.ibb.co/5sLB7DY/shinchan4.jpg" alt="Shinchan 4">
+    </div>
+  </section>
+
+  <section id="fun">
+    <div class="fun-zone">
+      <h2>Fun Zone 🎮</h2>
+      <p>Click the button below to play a surprise game with Shinchan!</p>
+      <a href="https://scratch.mit.edu/projects/52843934/" target="_blank" class="btn">Play Now</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Shinchan Fun World • Made with ❤️ for Kids
+  </footer>
+</body>
+</html>
